@@ -1,0 +1,15 @@
+Sonoff S26 firmware with the Blynk support
+
+* Open the project in MS Code (Platform IO), compile and flash the socket firmware
+  
+  https://tasmota.github.io/docs/devices/Sonoff-S26-Smart-Socket/
+
+* Plug in and power up your S26 Socket
+* Wait 5 secconds and then pres the button on you S26 Socket several times until the LED gows green
+* Unplug it form power and plug it again. The LED will gow green immediately.
+* Connect WiFi with
+        SSID: "SonoffS26(8)"
+        Password: "SonoffFwSux"
+* Configure your WiFi, Blynk server (collector) and the Blynk token
+* Save and restart
+* Configure the socket Blynk device on virtual pin V1. (Use Button in switch mode)
