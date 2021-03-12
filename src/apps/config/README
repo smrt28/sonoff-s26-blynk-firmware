@@ -1,0 +1,4 @@
+To generate *_html.h files, use xxd utility:
+
+xxd -i assets/setup.html > setup_html.h
+xxd -i assets/bye.html > by.h
